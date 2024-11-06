@@ -1,0 +1,211 @@
+.site-title {
+    font-size: 2.5em;
+    color: white;
+    text-align: center;
+    margin: 20px 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1, h2 {
+    margin: 10px 0;
+}
+
+#rooms {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.room {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.room img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.room h3 {
+    margin: 10px 0;
+    color: #333;
+}
+
+.room p {
+    color: #555;
+}
+
+.room button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.room button:hover {
+    background-color: #45a049;
+}
+
+#booking-form {
+    margin-top: 40px;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#booking-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+#booking-form label {
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+#booking-form input, #booking-form select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+body {
+    background-image: url('images/background.jpg');
+    background-size: cover; /* This makes sure the image covers the entire screen */
+    background-position: center;
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the background image fixed when scrolling */
+}
+
+
+/* Welcome section styles */
+.welcome-section {
+    position: relative;
+    text-align: center;
+    padding: 50px 0;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+    border-radius: 10px; /* Rounded corners */
+    margin: 30px auto;
+    width: 80%;
+}
+
+.welcome-section h1 {
+    color: #fff;
+    font-size: 3em;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Subtle shadow for text */
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.welcome-section p {
+    color: #f0f0f0;
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 20px auto;
+    line-height: 1.6;
+}
+#booking-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+#booking-form button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    text-align: center; /* Center the text */
+    padding: 10px; /* Add some padding for spacing */
+    background-color: rgb(0,0,0,0.6); /* Optional: Background color for the footer */
+}
+
+.footer-text {
+    color: white !important; /* Set text color to white with !important */
+    text-shadow: 
+        -1px -1px 1px rgba(0, 0, 0, 0.5),  /* Top-left shadow */
+         1px -1px 1px rgba(0, 0, 0, 0.5),  /* Top-right shadow */
+        -1px  1px 1px rgba(0, 0, 0, 0.5),  /* Bottom-left shadow */
+         1px  1px 1px rgba(0, 0, 0, 0.5);  /* Bottom-right shadow */
+    margin: 0; /* Remove default margin */
+    font-size: 1em; /* Adjust font size as needed */
+}
+
+
+.booking-form {
+    background-color: #f5f5f5;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.booking-form h2 {
+    text-align: center;
+    color: #333;
+}
+
+.booking-form label {
+    font-size: 1em;
+    margin-top: 10px;
+    display: block;
+    color: #333;
+}
+
+.booking-form input, 
+.booking-form select, 
+.booking-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.booking-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.booking-form input[type="submit"]:hover {
+    background-color: #45a049;
+}

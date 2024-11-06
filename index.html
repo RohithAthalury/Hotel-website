@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Room Booking</title>
+</head>
+<header>
+    <h1 class="site-title">Cozy Stays</h1>
+</header>
+
+<body>
+<div class="welcome-section">
+    <h1>Welcome to Our Hotel</h1>
+    <p>Experience the luxury and comfort of our well-furnished rooms, designed to provide you with the ultimate relaxation during your stay.</p>
+</div>
+<head>
+    <title>Cozy Stays - Your Comfortable Getaway</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+    <main>
+        <section id="rooms">
+            
+            
+            <!-- Room 1 -->
+            <div class="room">
+                <img src="images/room1.jpg" alt="Room 1 Image">
+                <h3>Room 1</h3>
+                <p>Description: A cozy room with a beautiful view.</p>
+                <p>Price: $100 per night</p>
+                <button onclick="bookRoom('Room 1')">Book Now</button>
+            </div>
+            
+            <!-- Room 2 -->
+            <div class="room">
+                <img src="images/room2.jpg" alt="Room 2 Image">
+                <h3>Room 2</h3>
+                <p>Description: A spacious room with modern amenities.</p>
+                <p>Price: $150 per night</p>
+                <button onclick="bookRoom('Room 2')">Book Now</button>
+            </div>
+            
+            <!-- Room 3 -->
+            <div class="room">
+                <img src="images/room3.jpg" alt="Room 3 Image">
+                <h3>Room 3</h3>
+                <p>Description: A luxurious suite with a private balcony.</p>
+                <p>Price: $200 per night</p>
+                <button onclick="bookRoom('Room 3')">Book Now</button>
+            </div>
+            
+            <!-- Room 4 (New Room) -->
+            <div class="room">
+                <img src="images/room4.jpg" alt="Room 4 Image">
+                <h3>Room 4</h3>
+                <p>Description: An elegant room with elegant decor and premium facilities.</p>
+                <p>Price: $250 per night</p>
+                <button onclick="bookRoom('Room 4')">Book Now</button>
+            </div>
+            
+        </section>
+        
+       <div class="booking-form">
+    <h2>Room Booking Form</h2>
+    <form action="submit-booking.php" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number:</label> <!-- New phone field -->
+        <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number">
+
+        <label for="checkin">Check-in Date:</label>
+        <input type="date" id="checkin" name="checkin" required>
+
+        <label for="checkout">Check-out Date:</label>
+        <input type="date" id="checkout" name="checkout" required>
+
+        <label for="timings">Preferred Check-in Time:</label> <!-- New timings field -->
+        <input type="time" id="timings" name="timings" required>
+
+        <label for="roomtype">Room Type:</label>
+        <select id="roomtype" name="roomtype" required>
+            <option value="standard">Room 1</option>
+            <option value="deluxe">Room 2</option>
+            <option value="suite">Room 3</option>
+	    <option value="suite">Room 4</option>
+        </select>
+
+        <label for="message">Additional Requests:</label>
+        <textarea id="message" name="message"></textarea>
+
+        <input type="submit" value="Book Now">
+    </form>
+<form id="form">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <!-- More form fields -->
+    <button type="submit">Submit</button>
+</form>
+
+<!-- Success message (initially hidden) -->
+<p id="success-message" style="display:none; color:green;">Thank you! Your booking request has been received.</p>
+
+</div>
+
+    </main>
+    <footer>
+    <p class="footer-text">&copy; 2024 Cozy Stays. All rights reserved.</p>
+    <p class="footer-text">Website created by A. Rohith</p>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
