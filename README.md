@@ -12,24 +12,6 @@ Front-end: HTML, CSS, JavaScript.
 Back-end: Node.js.
 Version Control: Git and GitHub for code management
 
-How to Run the Project
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/username/cozy-stays.git
-Navigate to the project directory:
-bash
-Copy code
-cd cozy-stays
-Install dependencies:
-bash
-Copy code
-npm install
-Run the development server:
-bash
-Copy code
-npm start
-
 Future Enhancements
 Add payment integration for booking confirmation.
 Include user reviews and ratings for rooms.
